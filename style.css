@@ -54,11 +54,12 @@ nav {
     text-transform: uppercase;
 }
 
-/* HERO SECTION */
+/* HERO SECTION - KODE BARU */
 .hero {
     height: 450px;
+    /* Kita pertahankan linear-gradient (rgba) agar gambar baru sedikit gelap dan teks putih tetap terbaca jelas */
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                url('https://images.unsplash.com/photo-1513106580091-1d82408b8cd6?q=80&w=2076');
+                url('https://raw.githubusercontent.com/playgirls-id/rental-kostum/refs/heads/main/bg-hero-baru.jpg'); /* GANTI DENGAN NAMA FILE GAMBAR BARU KAMU */
     background-size: cover;
     background-position: center;
     display: flex;
