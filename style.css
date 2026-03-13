@@ -24,19 +24,27 @@ body {
     border: 1px solid #333;
 }
 
-/* NAVIGATION */
+/* NAVIGATION - UPDATE INI */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 10px 40px; /* Ukuran padding diperkecil sedikit */
     background: #1a1a1a;
     border-bottom: 1px solid #333;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    max-height: 50px; /* Membatasi area logo */
+}
+
 .main-logo {
-    height: 45px;
-    width: auto;
+    height: 50px; /* INI KUNCINYA: Memaksa tinggi logo hanya 50px */
+    width: auto;  /* Lebar menyesuaikan otomatis agar tidak gepeng */
+    display: block;
+    object-fit: contain;
 }
 
 .menu-text {
